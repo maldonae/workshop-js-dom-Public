@@ -1,5 +1,5 @@
 console.log("hello world!");
-const buttons = document.querySelectorAll("television__button");
+const buttons = document.querySelectorAll(".television__button");
 for (const button of buttons) {
   button.addEventListener("click", () => {
     alert("Clic !");
